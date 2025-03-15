@@ -1,0 +1,89 @@
+header {
+    text-align: center;
+    background-color: #314e5f;
+    color: white;
+    padding: 50px 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Iansui", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 53px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+p,
+.content ul,
+.content-ol {
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-size: larger;
+    text-shadow: #85c1e9  0.1em 0.1em 0.2em;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.content {
+    padding: 40px;
+    margin: auto;
+    width: 80%;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: black;
+
+}
+
+.nav li {
+    width: 100%;
+    margin: auto;
+}
+
+.nav li:hover {
+    background: gray;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+[id] {
+    scroll-margin-top: 80px;
+}
+
+/* 因為跳轉的時候 定位會不夠準確 
+ 所以使用scroll-margin-top  
+ 讓跳轉時多留 80px 空間*/
+
+footer {
+    background-color: #314e5f;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+.email {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

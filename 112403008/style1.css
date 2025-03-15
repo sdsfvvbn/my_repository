@@ -1,0 +1,95 @@
+.cover {
+    width: 100%;
+    height: 95vh;
+    background-image:
+        linear-gradient(115deg, #83d1fc 50%, transparent 50%),
+        url("./Campus.jpg");
+
+    background-position: center center, right center;
+    background-size: 100% 100%, auto 100%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+
+.cover-container {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+}
+
+.cover-txt {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.cover-txt h1 {
+    font-size: 53px;
+    border-bottom: 1px solid black;
+    text-shadow:0.04em 0.05em white;
+    font-family: "Iansui", cursive;
+    font-weight: 300;
+    font-style: normal;
+    margin: bottom 2px;
+
+}
+
+.cover-txt h1 small {
+    font-family: "Noto Serif TC", serif;
+    font-weight: 100;
+    display: block;
+    font-size: 33px;
+    font-style: italic;
+
+}
+.NCU_LOGO {
+   
+    margin: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-bar{
+    width: 100%;
+}
+ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    background-color: #314e5f;
+}
+
+li {
+    
+    cursor: pointer;
+}
+
+li a:hover {
+    background: #83d1fc;
+}
+
+a {
+    padding: 15px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+    background-color: #314e5f;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+.email {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
